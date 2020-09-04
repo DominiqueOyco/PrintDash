@@ -43,7 +43,8 @@ window._wpemojiSettings = {"baseUrl":
 				"complete"===b.readyState&&c.readyCallback()
 			}
 		)
-		),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))
+}
+(window,document,window._wpemojiSettings);
 
 
-			

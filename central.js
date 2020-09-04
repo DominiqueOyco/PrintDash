@@ -1,4 +1,11 @@
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/printndash.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.7"}};
+window._wpemojiSettings = {"baseUrl":
+	"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":
+	"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":
+	{"concatemoji":
+		"https:\/\/printndash.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.7"
+	}
+};
+
 !function(a,b,c){
 	function d(a,b){
 		var c=String.fromCharCode;
@@ -8,6 +15,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12
 		var e=k.toDataURL();
 		return d===e
 	}
+
 	function e(a){
 		var b;
 		if(!l||!l.fillText)return!1;
@@ -16,9 +24,26 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12
 			case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b
 		}return!1
 	}
+
 	function f(a){
 		var c=b.createElement("script");
 		c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)
 	}
+
 	var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");
-	for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+	for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)
+		c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);
+		c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,
+		c.readyCallback=function(){
+			c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()
+		},
+		b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),
+		b.attachEvent("onreadystatechange",function()
+			{
+				"complete"===b.readyState&&c.readyCallback()
+			}
+		)
+		),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+
+
+			

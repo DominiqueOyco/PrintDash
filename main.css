@@ -10,3 +10,11 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }
+
+.infinite-scroll .woocommerce-pagination {
+	display: none;
+}
+
+#yith-quick-view-modal .yith-wcqv-main{background:#ffffff;}
+#yith-quick-view-close{color:#cdcdcd;}
+#yith-quick-view-close:hover{color:#ff0000;}
